@@ -1,0 +1,41 @@
+{
+  "name": "enotionclone",
+  "productName": "ENotion(Unofficial Notion Electron)",
+  "version": "1.0.0",
+  "description": "An open source notion cross-platform for desktop using Electron.JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.enotionclone.app",
+    "productName": "ENotionClone",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    }
+  },
+  "author": "Ajil Jagadeesh",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^27.1.3",
+    "electron-builder": "^24.9.1"
+  }
+}
