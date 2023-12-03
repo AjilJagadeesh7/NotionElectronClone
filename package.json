@@ -17,18 +17,21 @@
     "mac": {
       "target": [
         "dmg"
-      ]
+      ],
+      "icon": "./assets/android-chrome-512x512.png"
     },
     "win": {
       "target": [
         "nsis",
         "portable"
-      ]
+      ],
+      "icon": "./assets/android-chrome-512x512.png"
     },
     "linux": {
       "target": [
         "AppImage"
-      ]
+      ],
+      "icon": "./assets/android-chrome-512x512.png"
     }
   },
   "author": "Ajil Jagadeesh",
