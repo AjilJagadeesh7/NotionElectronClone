@@ -50,6 +50,16 @@ app.on("ready", () => {
           },
         },
         {
+          label: "Reload", // Adding the Reload option
+          accelerator: "CmdOrCtrl+R", // Defining the accelerator key
+          click: () => {
+            mainWindow.reload(); // Functionality to reload the window
+          },
+        },
+        {
+          type: "separator", // Adding a separator in the menu
+        },
+        {
           label: "Quit",
           accelerator: "CmdOrCtrl+Q",
           click: () => {
